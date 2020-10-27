@@ -1,0 +1,17 @@
+development :
+  adapt : postgresql
+  encoding : unicode
+  database : tps_development
+  host : localhost
+  pool : 5
+  username : tps_development
+  password : tps_development
+
+test :
+  adapt : postgresql
+  encoding : unicode
+  database : tps_test
+  host : localhost
+  pool : 5
+  username : tps_test
+  password : tps_test
